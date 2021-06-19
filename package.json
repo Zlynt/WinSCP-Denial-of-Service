@@ -1,0 +1,16 @@
+{
+  "name": "winscp-denial-of-service",
+  "version": "1.0.0",
+  "description": "PoC for WinSCP - Denial of Service via Stack Exhaustion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Zlynt (Ivan Teixeira)",
+  "license": "",
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "ssh2": "^1.1.0",
+    "ssh2-sftp-server": "^1.1.2"
+  }
+}
